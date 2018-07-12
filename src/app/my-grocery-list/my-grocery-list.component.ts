@@ -7,19 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 
 
-export class MyGroceryListComponent implements OnInit {
+export class MyGroceryListComponent  {
 
   task: string;
   tasks = [];
 
   onClick(){
-    this.tasks.push({name: this.task});
-  this.task = '';
-}
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+      this.tasks.push({name: this.task, strike: false});
+      this.task = '';
+  } 
 }
