@@ -3,6 +3,8 @@
 
 body {
     margin: 32px;
+    background-color: rgb(165, 217, 233) ;
+    color:hsl(327, 100%, 50%)
 }
 
 .content-margin {
@@ -17,6 +19,9 @@ html {
 .strike{
     text-decoration:line-through;
 }
+
+.row {color:hsl(327, 100%, 50%)}
+
 
 
 
